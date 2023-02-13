@@ -61,18 +61,27 @@ def slice(itter, start = None, stop = None, step = 1):
      
   return list
 
-print(nums[2:-2])
-print(slice(nums, 2, -2))
+# print(nums[2:-2])
+# print(slice(nums, 2, -2))
 
-print(nums[:4])
-print(slice(nums, stop = 4))
+# print(nums[:4])
+# print(slice(nums, stop = 4))
 
-print(nums[::-1])
-print(slice(nums, step=-1))
+# print(nums[::-1])
+# print(slice(nums, step=-1))
 
-print(nums[-2:1:-1])
-print(slice(nums, -2, 1, -1))
+# print(nums[-2:1:-1])
+# print(slice(nums, -2, 1, -1))
 
-print(nums[:1:-1])
-print(slice(nums, stop=1,step=-1))
+# print(nums[:1:-1])
+# print(slice(nums, stop=1,step=-1))
+
+print(nums[-2:-7:-2])
+print(slice(nums, -2, -7, -2))
+print(nums[:-3])
+print(slice(nums, stop = -3))
+print(nums[:3:-1])
+print(slice(nums, stop=3, step=-1))
+print(nums[2:-1:3])
+print(slice(nums, 2,-1,3))
       
